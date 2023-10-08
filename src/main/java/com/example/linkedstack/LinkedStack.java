@@ -52,7 +52,7 @@ public class LinkedStack implements Stack {
     }
 
     public String toString() {
-        StringBuilder result = new StringBuilder("[");
+        StringBuilder result = new StringBuilder("(");
         Node current = top;
 
         while (current != null) {
@@ -63,7 +63,7 @@ public class LinkedStack implements Stack {
             }
         }
 
-        result.append("]");
+        result.append(")");
         return result.toString();
     }
 }
